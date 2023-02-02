@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: black;
+    font-family: sans-serif;
+
+}
+#container{
+    width: max(10vw, 300px);
+    background:rgb(202, 202, 255);
+    padding:10px;
+    display: block;
+    gap:40px;
+    outline: auto;
+}
+
+
+#imageBox{
+    align-self: center;
+}
+
+#messageBox{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#myInput{
+    padding:5px 10px;
+    border:none;
+    border-bottom: 2px solid white;
+    font-size:20px;
+    width:90%;
+}
+
+#myInput:focus{
+    outline: none;
+
+}
+
+.inputButton{
+    background: red;
+    width: 80px;
+    border:none;
+    padding:5px;
+    font-size: 12px;
+    color: white;
+    margin: 5px;
+}
+
+
+.inputButton:hover{
+    cursor:pointer;
+}
